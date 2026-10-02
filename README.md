@@ -6,12 +6,12 @@
 
 **Tu ruleta y tus números de la suerte, en una app cozy de color rosa pastel.**
 
-[![Demo en vivo](https://img.shields.io/badge/demo-GitHub%20Pages-F29DB5?style=for-the-badge)](https://TU-USUARIO.github.io/rincon-rosa/)
+[![Demo en vivo](https://img.shields.io/badge/demo-GitHub%20Pages-F29DB5?style=for-the-badge)](https://francisykza.github.io/rincon-rosa/)
 ![PWA](https://img.shields.io/badge/PWA-instalable-D2668A?style=for-the-badge)
 ![Sin dependencias](https://img.shields.io/badge/dependencias-0-E6CBEA?style=for-the-badge)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-FDD5C2?style=for-the-badge)](LICENSE)
 
-<img src="docs/ruleta.png" alt="Pantalla de la ruleta" width="760">
+<img src="docs/ruleta.jpg" alt="Pantalla de la ruleta" width="760">
 
 </div>
 
@@ -45,13 +45,13 @@ Se instala en el móvil como una app más (con su icono y a pantalla completa) y
 - Atajo de teclado: barra espaciadora para girar o generar.
 
 <div align="center">
-<img src="docs/numeros.png" alt="Generador de números" width="560">
-<img src="docs/movil.png" alt="Vista en el móvil" width="200">
+<img src="docs/numeros.jpg" alt="Generador de números" width="560">
+<img src="docs/movil.jpg" alt="Vista en el móvil" width="200">
 </div>
 
 ## Instalarla en el móvil
 
-1. Abre la [demo](https://TU-USUARIO.github.io/rincon-rosa/) en el navegador del móvil.
+1. Abre la [demo](https://francisykza.github.io/rincon-rosa/) en el navegador del móvil.
 2. **Android (Chrome):** pulsa *Instalar app* o *⋮ → Añadir a pantalla de inicio*.
 3. **iPhone (Safari):** botón de compartir → *Añadir a pantalla de inicio*.
 
@@ -73,20 +73,6 @@ rincon-rosa/
 ├── icons/                # Iconos de la app
 └── docs/                 # Capturas para este README
 ```
-
-## Ejecutarla en local
-
-No necesita instalar nada. Sirve la carpeta con cualquier servidor estático, por ejemplo:
-
-```bash
-python3 -m http.server 8000
-```
-
-y abre `http://localhost:8000`. (Abriendo `index.html` directamente también funciona, pero el modo sin conexión necesita un servidor.)
-
-## Publicar cambios
-
-Cada vez que cambies algo, sube también un cambio en la constante `VERSION` de `sw.js` (por ejemplo `rincon-rosa-v2`). Así los móviles que ya tienen la app instalada descargan la versión nueva.
 
 ## Privacidad
 
